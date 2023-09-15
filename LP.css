@@ -1,0 +1,270 @@
+
+
+
+
+
+
+.story{
+    background-color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    width: 600%;
+    height: 50%;
+}
+  
+
+header
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo
+{
+    color: brown;
+    font-weight: 600;
+    font-size: 2.4rem;
+    padding-left: 90px;
+    text-decoration: none;
+}
+
+.navbar
+{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar a
+{
+    color: brown;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: 'poppins',sans-serif;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    color: chocolate;
+    transition: .4%;
+}
+
+.text h1{
+    font-style: italic;
+    font-size: 100px;
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.text p{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-top: 0;
+    padding-right: 15%;
+    font-size: 20px;
+    font-family: 'poppins',sans-serif;
+    font-weight: 300;
+    padding-bottom: 60px;
+}
+.home
+{
+    background-color: bisque;
+    border-radius: 3px;
+}
+
+
+
+.story
+{
+    width: 70%;
+    height: 60%;
+    border-radius: 4px;
+    display: flex;
+    min-height: 20rem;
+}
+
+
+.story p{
+    line-height: 1.5rem;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 2px;
+}
+
+.story .left
+{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    .story .img-wrapper
+    {   
+        width: 15rem;
+        position: relative;
+    }
+
+    .story .right
+    {
+        width: 50%;
+    }
+
+    .heading
+    {
+        text-align: center;
+        font-weight: bold;
+
+    }
+
+    .menu-items
+    {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px,auto));
+        grid-gap: 1.0rem;
+        align-items: center;
+    }
+.menu h2 
+{
+    font-size: 33px;
+    font-family: 'poppins',sans-serif;
+}
+    .box
+    {
+     position: relative;
+     margin-top: 3rem;
+     height: auto;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     background-color: bisque;
+     padding: 20px;
+     border-radius: 0.5rem;
+     padding-bottom: 9px;
+    }
+
+    
+    
+    .box h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2rem;
+    
+
+    }
+    
+    .box h3{
+        font-size: 22px;
+        margin: 4px 0 10px;
+        padding-bottom: 3px;
+    }
+
+    .box span{
+        font-size: medium;
+        font-weight: bold;
+        color: crimson;
+    }
+  .container-box
+  {
+    padding: 0rem 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background-color: bisque;
+    height: 400px;
+    border-radius: 6px;
+    width: 700px;
+    padding-left: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hey h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 40px;
+  }
+   
+  .slider-wrapper
+    {
+        position: relative;
+        max-width: 42rem;
+        margin: 0 auto;
+        float: right;
+        height: 70%;
+    
+        
+    }
+
+    .slider
+    {
+        display: flex;
+        aspect-ratio: 16/9;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+        border-radius: 0.25rem;
+    }
+    
+    .slider img{
+        flex: 1 0 100%;
+        height: 100%;
+        width: 100%;
+        scroll-snap-align: start;
+        object-fit: cover;
+    }
+
+    .slider-nav
+    {
+        display: flex;
+        column-gap: 1rem;
+        position: absolute;
+        bottom: 0.25rem;
+        left: 50%;
+        transform: translate(-50%);
+        z-index: -1;
+        
+    }
+
+    .slider-nav a
+    {
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background-color: #fff;
+        opacity: 0.75;
+        transition: opacity ease 250ms;
+    }
+.matter h2
+{
+    
+    color: brown;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 59px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-right: 645px;
+    padding-top: 5px;
+    
+    
+}
+
